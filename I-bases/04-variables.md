@@ -6,7 +6,7 @@ Les variables sont un concept fondamental dans tout langage de programmation. Ru
 
 La première particularité de Rust est que **toutes les variables sont immuables (constantes) par défaut**. C'est un choix délibéré pour favoriser la programmation sécurisée.
 
-```
+``` rust
 fn main() {
     let nombre = 42;
     nombre = 50;  // Erreur de compilation !
@@ -16,7 +16,7 @@ fn main() {
 
 Ce code ne compilera pas car nous essayons de modifier une variable immuable. Pour rendre une variable mutable, nous devons utiliser le mot-clé `mut` :
 
-```
+``` rust
 fn main() {
     let mut nombre = 42;
     println!("Le nombre initial est {}", nombre);
@@ -31,7 +31,7 @@ Rust est un langage à typage statique, mais avec inférence de types. Cela sign
 
 #### Types numériques
 
-```
+``` rust
 fn main() {
         // Types explicites
     let entier_signe: i32 = -42;
@@ -67,7 +67,7 @@ Rust propose plusieurs types numériques :
 
 Contrairement à d'autres langages comme C/C++, Rust n'a pas d'opérateurs d'incrémentation/décrémentation (`++`, `--`). Il faut utiliser les opérateurs composés :
 
-```
+``` rust
 fn main() {
     let mut compteur = 0;
 
@@ -95,7 +95,7 @@ fn main() {
 
 Rust permet de redéclarer une variable avec le même nom, ce qui "masque" la déclaration précédente :
 
-```
+``` rust
 fn main() {
     let valeur = 5;
     println!("Valeur initiale: {}", valeur);
@@ -212,7 +212,7 @@ fn main() {
 
 Une slice représente une vue sur une séquence contigüe d'éléments dans une collection, sans en prendre possession :
 
-```
+``` rust
 fn main() {
     let nombres = [1, 2, 3, 4, 5];
 
@@ -249,7 +249,7 @@ Rust possède deux types principaux pour les chaînes de caractères :
 - `String` : chaîne de caractères de taille variable, allouée sur le tas
 - `&str` : slice de chaîne (référence à une séquence d'UTF-8)
 
-```
+``` rust
 fn main() {
     // Création d'une String
     let mut message = String::from("Bonjour");
@@ -285,7 +285,7 @@ fn main() {
 
 Outre les variables standard, Rust offre deux autres façons de déclarer des valeurs :
 
-```
+``` rust
 // Constante (évaluée à la compilation)
 const MAX_POINTS: u32 = 100_000;
 

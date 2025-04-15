@@ -37,7 +37,7 @@ Rust se démarque par plusieurs innovations techniques :
 
 Le concept de "propriété" est au cœur du modèle de mémoire de Rust. Chaque valeur a un unique "propriétaire", et quand le propriétaire sort de portée, la valeur est automatiquement libérée.
 
-```
+``` rust
 fn exemple_ownership() {
     let s1 = String::from("bonjour"); // s1 est propriétaire
     let s2 = s1;                      // s1 n'est plus valide
@@ -50,7 +50,7 @@ fn exemple_ownership() {
 
 Plutôt que de transférer la propriété, Rust permet d'emprunter des références aux données.
 
-```
+``` rust
 fn exemple_borrowing() {
     let s1 = String::from("bonjour");
     let len = calculer_longueur(&s1); // Emprunt immutable
@@ -66,7 +66,7 @@ fn calculer_longueur(s: &String) -> usize {
 
 Rust garantit la sécurité des threads à la compilation, éliminant une classe entière de bugs.
 
-```
+``` rust
 use std::thread;
 
 fn exemple_concurrence() {

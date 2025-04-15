@@ -42,7 +42,7 @@ Félicitations! Vous avez deviné le mot "ruste"!
 
 Pour réaliser notre jeu, nous aurons besoin d'une liste de mots. Nous utiliserons la crate `rand` pour sélectionner un mot aléatoirement. Ajoutons ces dépendances à notre fichier `Cargo.toml`:
 
-```
+```  toml
 [dependencies]
 rand = "0.8.5"
 ```
@@ -149,7 +149,7 @@ fn jouer(mots: &[String]) -> bool {
 
 Maintenant, implémentons les fonctions auxiliaires nécessaires au bon fonctionnement du jeu:
 
-```
+``` rust
 fn afficher_mot_actuel(mot: &str, lettres_trouvees: &HashSet<char>) {
     print!("Mot actuel: ");
     for c in mot.chars() {
@@ -215,7 +215,7 @@ fn recuperer_lettre_utilisateur(lettres_deja_utilisees: &HashSet<char>) -> Optio
 
 Voici le code complet du jeu, bien structuré et commenté:
 
-```
+``` rust
 use rand::seq::SliceRandom;
 use std::collections::HashSet;
 use std::io::{self, Write};

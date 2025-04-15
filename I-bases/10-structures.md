@@ -8,7 +8,7 @@ Rust propose quatre types de structures différents :
 
 #### 1\. Structures classiques (avec champs nommés)
 
-```
+``` rust
 struct Personne {
     nom: String,
     prenom: String,
@@ -19,19 +19,19 @@ struct Personne {
 
 #### 2\. Structures tuples (sans noms de champs)
 
-```
+``` rust
 struct Point3D(f64, f64, f64);
 ```
 
 #### 3\. Structures unitaires (sans champs)
 
-```
+``` rust
 struct Validation;
 ```
 
 #### 4\. Structures newtype (wrapper autour d'un type)
 
-```
+``` rust
 struct Kilometres(f64);
 ```
 
@@ -41,7 +41,7 @@ Voici comment créer et utiliser chaque type de structure :
 
 #### Structure classique
 
-```
+``` rust
 let alice = Personne {
     nom: String::from("Dupont"),
     prenom: String::from("Alice"),
@@ -56,7 +56,7 @@ println!("Âge: {}", alice.age);
 
 #### Structure tuple
 
-```
+``` rust
 let point = Point3D(1.0, 2.0, 3.0);
 
 // Accès par index
@@ -65,14 +65,14 @@ println!("x: {}, y: {}, z: {}", point.0, point.1, point.2);
 
 #### Structure unitaire
 
-```
+``` rust
 let validation = Validation;
 // Pas de champs à accéder
 ```
 
 #### Structure newtype
 
-```
+``` rust
 let distance = Kilometres(42.5);
 println!("Distance: {} km", distance.0);
 ```
@@ -81,7 +81,7 @@ println!("Distance: {} km", distance.0);
 
 Rust permet de créer une nouvelle instance d'une structure à partir d'une instance existante :
 
-```
+``` rust
 let alice = Personne {
     nom: String::from("Dupont"),
     prenom: String::from("Alice"),
@@ -111,7 +111,7 @@ match &bob.email {
 
 Par défaut, les champs d'une structure sont privés en dehors de leur module. Pour les rendre accessibles, utilisez le mot-clé `pub` :
 
-```
+``` rust
 pub struct Configuration {
     pub version: String,      // Accessible publiquement
     chemin_donnees: String,   // Privé en dehors du module
@@ -166,7 +166,7 @@ let carre = rect.convertir_en_carre();
 
 Les structures peuvent être déstructurées pour extraire leurs champs :
 
-```
+``` rust
 let rect = Rectangle { largeur: 10.0, hauteur: 5.0 };
 
 let Rectangle { largeur, hauteur } = rect;
@@ -187,7 +187,7 @@ match rect {
 
 Pour exécuter du code lorsqu'une structure est détruite, implémentez le trait `Drop` :
 
-```
+``` rust
 struct Ressource {
     nom: String,
 }
@@ -344,7 +344,7 @@ fn main() {
 
 Rust permet de dériver automatiquement certains comportements pour vos structures :
 
-```
+``` rust
 #[derive(Debug, Clone, PartialEq)]
 struct Point {
     x: f64,
@@ -362,7 +362,7 @@ println!("p1 == p2: {}", p1 == p2);  // Comparaison grâce à PartialEq
 
 Les structures tuples sont utiles pour créer des types distincts avec la même structure sous-jacente :
 
-```
+``` rust
 struct Celsius(f64);
 struct Fahrenheit(f64);
 

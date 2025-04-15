@@ -160,7 +160,7 @@ Cargo est beaucoup plus qu'un simple gestionnaire de paquets - c'est l'outil cen
 
 #### Commandes essentielles
 
-```
+``` bash
 # Créer un nouveau projet
 cargo new mon_projet
 cargo new --lib ma_bibliotheque
@@ -196,7 +196,7 @@ mon_projet/
 
 #### Cargo.toml : le manifeste du projet
 
-```
+``` toml
 [package]
 name = "mon_projet"
 version = "0.1.0"
@@ -227,7 +227,7 @@ Rust fournit un ensemble d'outils additionnels qui améliorent considérablement
 
 - **Rustfmt** : formatte automatiquement votre code selon les conventions officielles
 
-```
+``` bash
 # Installation
 rustup component add rustfmt
 
@@ -249,7 +249,7 @@ cargo clippy
 
 - **Rustdoc** : générateur de documentation (intégré à Cargo)
 
-```
+``` bash
 # Générer et ouvrir la documentation de votre projet
 cargo doc --open
 
@@ -261,7 +261,7 @@ cargo doc --open --document-private-items
 
 - **Cargo-edit** : ajoute des commandes pour gérer les dépendances
 
-```
+``` bash
 # Installation
 cargo install cargo-edit
 
@@ -275,14 +275,14 @@ cargo upgrade
 
 - **Cargo-tarpaulin** : couverture de code
 
-```
+``` bash
 cargo install cargo-tarpaulin
 cargo tarpaulin
 ```
 
 - **Criterion** : framework de benchmark
 
-```
+``` toml
 [dev-dependencies]
 criterion = "0.5"
 
@@ -295,14 +295,14 @@ harness = false
 
 - **Cargo-bloat** : analyse la taille des artefacts
 
-```
+``` bash
 cargo install cargo-bloat
 cargo bloat --release
 ```
 
 - **Cargo-expand** : affiche le code après expansion des macros
 
-```
+``` bash
 cargo install cargo-expand
 cargo expand
 ```
@@ -349,7 +349,7 @@ rustup component add rustfmt clippy
 
 - Installez les packages de développement nécessaires :
 
-```
+``` bash
 # Debian/Ubuntu
 sudo apt install build-essential pkg-config libssl-dev
 

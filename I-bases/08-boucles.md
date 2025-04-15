@@ -6,7 +6,7 @@ Les boucles sont essentielles dans tout langage de programmation. Rust offre plu
 
 La boucle `while` continue tant que sa condition est vraie :
 
-```
+``` rust
 let mut compteur = 0;
 while compteur < 5 {
     println!("Compteur: {}", compteur);
@@ -24,7 +24,7 @@ Particularités à noter en Rust :
 
 Rust propose une boucle infinie avec le mot-clé `loop`. C'est plus idiomatique que d'écrire `while true` :
 
-```
+``` rust
 let mut compteur = 0;
 loop {
     println!("Itération {}", compteur);
@@ -42,7 +42,7 @@ Cette construction est très utilisée dans les cas où l'on souhaite continuer 
 
 Une caractéristique unique à Rust est la possibilité de retourner une valeur depuis une boucle `loop` :
 
-```
+``` rust
 let resultat = loop {
     // Faire quelque chose...
     if /* condition */ {
@@ -53,7 +53,7 @@ let resultat = loop {
 
 Par exemple :
 
-```
+``` rust
 let mut compteur = 0;
 let resultat = loop {
     compteur += 1;
@@ -71,7 +71,7 @@ La boucle `for` en Rust est très puissante et fonctionne avec tout objet qui im
 
 #### Parcourir des plages de nombres
 
-```
+``` rust
 // Parcourt les nombres de 0 à 4 inclus
 for i in 0..5 {
     println!("i = {}", i);
@@ -85,7 +85,7 @@ for i in 0..=5 {
 
 #### Parcourir des collections
 
-```
+``` rust
 let nombres = vec![10, 20, 30, 40, 50];
 
 // Parcourt les valeurs directement (consomme le vecteur)
@@ -111,7 +111,7 @@ println!("Positions: {:?}", positions); // Affiche [2, 4, 6]
 
 Si vous avez besoin de l'index pendant l'itération, utilisez `enumerate()` :
 
-```
+``` rust
 let fruits = vec!["pomme", "banane", "orange"];
 for (index, fruit) in fruits.iter().enumerate() {
     println!("Fruit #{}: {}", index + 1, fruit);
@@ -122,7 +122,7 @@ for (index, fruit) in fruits.iter().enumerate() {
 
 Rust permet de donner des noms (ou étiquettes) aux boucles, ce qui est particulièrement utile pour spécifier quelle boucle interrompre ou continuer dans des structures imbriquées :
 
-```
+``` rust
 'externe: for x in 1..=5 {
     'interne: for y in 1..=5 {
         println!("x = {}, y = {}", x, y);
@@ -144,7 +144,7 @@ Rust permet de donner des noms (ou étiquettes) aux boucles, ce qui est particul
 
 Les boucles en Rust peuvent être combinées avec d'autres expressions de manière élégante :
 
-```
+``` rust
 let mut total = 0;
 let resultat = loop {
     match total {
@@ -163,7 +163,7 @@ Rust étant axé sur les performances, ses boucles sont généralement optimisé
 
 On peut combiner les boucles avec des closures pour créer des itérateurs personnalisés :
 
-```
+``` rust
 // Créer un itérateur personnalisé avec une closure
 let compteur = (0..5).map(|n| n * n);
 

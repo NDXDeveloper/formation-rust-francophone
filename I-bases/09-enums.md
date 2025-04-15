@@ -6,7 +6,7 @@ Les énumérations (ou `enum`) en Rust sont beaucoup plus puissantes que celles 
 
 Une enum en Rust peut avoir plusieurs variantes, chacune pouvant être de différentes formes :
 
-```
+``` rust
 enum Message {
     Texte(String),                     // Variante tuple contenant une String
     Point { x: f64, y: f64 },          // Variante struct avec champs nommés
@@ -19,7 +19,7 @@ enum Message {
 
 Il est possible de définir des valeurs explicites pour les variantes, similaire aux enums en C :
 
-```
+``` rust
 enum Statut {
     Actif = 1,
     Inactif = 0,
@@ -103,7 +103,7 @@ Rust propose plusieurs enums standards très utiles :
 
 Utilisée pour représenter une valeur optionnelle : soit présente (`Some(T)`), soit absente (`None`) :
 
-```
+``` rust
 fn diviser(numerateur: f64, denominateur: f64) -> Option<f64> {
     if denominateur == 0.0 {
         None
@@ -123,7 +123,7 @@ match diviser(10.0, 2.0) {
 
 Utilisée pour représenter une opération qui peut réussir (`Ok(T)`) ou échouer (`Err(E)`) :
 
-```
+``` rust
 use std::fs::File;
 
 fn ouvrir_fichier(chemin: &str) {
@@ -138,7 +138,7 @@ fn ouvrir_fichier(chemin: &str) {
 
 Comme pour les structures, il est possible d'implémenter des méthodes sur les enums :
 
-```
+``` rust
 enum Adresse {
     IPv4(u8, u8, u8, u8),
     IPv6(String),
@@ -177,7 +177,7 @@ localhost_v6.afficher(); // ::1
 
 Les enums peuvent également utiliser des types génériques :
 
-```
+``` rust
 enum Resultat<T, E> {
     Succes(T),
     Erreur(E),

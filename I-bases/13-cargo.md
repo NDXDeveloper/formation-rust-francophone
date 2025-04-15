@@ -9,7 +9,7 @@ Cargo est le gestionnaire de paquets et système de build officiel de Rust. Il s
 
 Pour créer un nouveau projet Rust avec Cargo :
 
-```
+```bash
 # Créer un projet binaire
 cargo new mon_projet
 
@@ -31,7 +31,7 @@ mon_projet/
 
 Le fichier `Cargo.toml` est le cœur de la configuration d'un projet Rust, écrit au format [TOML](https://toml.io/). Il contient :
 
-```
+```  toml
 [package]
 name = "mon_projet"         # Nom du projet
 version = "0.1.0"           # Version selon SemVer
@@ -51,7 +51,7 @@ crossbeam-channel = "0.5.15"
 
 Voici les commandes Cargo les plus utilisées :
 
-```
+```bash
 cargo build            # Compile le projet
 cargo build --release  # Compile en mode optimisé pour la production
 cargo run              # Compile et exécute le projet
@@ -84,7 +84,7 @@ codegen-units = 1      # Optimise davantage mais compile plus lentement
 
 Vous pouvez activer des fonctionnalités spécifiques ou définir des dépendances conditionnelles :
 
-```
+```  toml
 [dependencies]
 sha2 = { version = "0.10.8", optional = true }
 md5 = { version = "0.7.0", features = ["std"] }
@@ -100,7 +100,7 @@ all = ["sha256", "md5"] # Combinaison de fonctionnalités
 
 Pour utiliser des fonctionnalités spécifiques :
 
-```
+```bash
 cargo build --features "sha256 md5"
 ```
 
@@ -108,7 +108,7 @@ cargo build --features "sha256 md5"
 
 Les espaces de travail permettent de gérer plusieurs paquets connexes dans un seul projet :
 
-```
+```bash
 # Dans le fichier Cargo.toml racine
 [workspace]
 members = [
@@ -134,7 +134,7 @@ Cargo utilise la notation [SemVer](https://semver.org/) pour spécifier les vers
 
 Par exemple :
 
-```
+```  toml
 [dependencies]
 sha2 = "0.10"         # Accepte 0.10.x
 crossbeam = "~0.5.15" # Accepte 0.5.15 à 0.5.z
@@ -151,7 +151,7 @@ Le fichier `Cargo.lock` enregistre les versions exactes des dépendances utilis�
 
 Le plugin `cargo-edit` facilite la gestion des dépendances en ligne de commande :
 
-```
+```bash
 # Installation
 cargo install cargo-edit
 
@@ -165,7 +165,7 @@ cargo upgrade
 
 Utile pour le développement, il relance les commandes quand les fichiers changent :
 
-```
+```bash
 cargo install cargo-watch
 cargo watch -x test -x run
 ```
@@ -174,7 +174,7 @@ cargo watch -x test -x run
 
 Pour déboguer les macros, vous pouvez voir le code généré :
 
-```
+```bash
 cargo install cargo-expand
 cargo expand
 ```
@@ -183,7 +183,7 @@ cargo expand
 
 Pour publier votre crate sur le registre officiel, assurez-vous d'avoir des métadonnées complètes :
 
-```
+```  toml
 [package]
 name = "ma_bibliotheque"
 version = "0.1.0"
@@ -199,7 +199,7 @@ categories = ["development-tools"]
 
 Ensuite, connectez-vous et publiez :
 
-```
+```bash
 cargo login <votre-token-api>
 cargo publish
 ```

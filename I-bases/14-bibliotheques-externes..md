@@ -14,7 +14,7 @@ Les bibliothèques Rust (appelées "crates") peuvent être trouvées principalem
 
 Pour utiliser une bibliothèque du registre officiel, ajoutez-la à votre `Cargo.toml` :
 
-```
+```  toml
 [dependencies]
 sha2 = "0.10.8"
 serde = { version = "1.0", features = ["derive"] }
@@ -25,7 +25,7 @@ rand = "0.8"
 
 Vous pouvez également utiliser du code directement depuis un dépôt Git :
 
-```
+```  toml
 [dependencies]
 ma_crate = { git = "https://github.com/utilisateur/ma_crate", branch = "main" }
 # Ou spécifier un tag ou un commit précis
@@ -37,7 +37,7 @@ encore_une = { git = "https://github.com/utilisateur/encore_une", rev = "abc123"
 
 Pendant le développement, il est souvent utile de référencer une bibliothèque locale :
 
-```
+```  toml
 [dependencies]
 ma_lib_locale = { path = "../chemin/vers/ma_lib_locale" }
 ```
@@ -46,7 +46,7 @@ ma_lib_locale = { path = "../chemin/vers/ma_lib_locale" }
 
 Une fois les dépendances ajoutées à votre `Cargo.toml`, vous pouvez les utiliser dans votre code :
 
-```
+``` rust
 // Importation simple
 use sha2::{Sha256, Digest};
 
@@ -68,7 +68,7 @@ fn calculer_hash(données: &[u8]) -> String {
 
 Voici un exemple qui utilise plusieurs bibliothèques externes pour créer un petit outil qui calcule différents types de hashes :
 
-```
+```  toml
 [dependencies]
 sha2 = "0.11.0-pre.5"
 hex = "0.4.3"
@@ -156,7 +156,7 @@ fn main() -> io::Result<()> {
 
 Pour consulter la documentation d'une bibliothèque utilisée dans votre projet :
 
-```
+```bash
 cargo doc --open
 ```
 
@@ -166,7 +166,7 @@ Cette commande génère et ouvre la documentation de votre projet et de toutes s
 
 Beaucoup de bibliothèques offrent des fonctionnalités optionnelles que vous pouvez activer selon vos besoins :
 
-```
+``` rust
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 tokio = { version = "1.0", features = ["full"] }
@@ -174,7 +174,7 @@ tokio = { version = "1.0", features = ["full"] }
 
 Vous pouvez également désactiver les fonctionnalités par défaut et activer uniquement celles dont vous avez besoin :
 
-```
+``` rust
 [dependencies]
 tokio = { version = "1.0", default-features = false, features = ["rt", "macros"] }
 ```
@@ -185,14 +185,14 @@ Parfois, différentes bibliothèques peuvent dépendre de versions différentes 
 
 Pour visualiser l'arbre de dépendances et identifier les conflits :
 
-```
+``` bash
 cargo install cargo-tree
 cargo tree
 ```
 
 Pour identifier des problèmes de version spécifiques :
 
-```
+``` bash
 cargo tree -i nom_crate
 ```
 
@@ -210,7 +210,7 @@ Avant d'adopter une bibliothèque pour un projet critique, considérez ces crit�
 
 Pour tester rapidement une bibliothèque sans créer un projet complet :
 
-```
+``` bash
 mkdir test-lib && cd test-lib
 cargo init
 # Modifiez Cargo.toml pour ajouter vos dépendances

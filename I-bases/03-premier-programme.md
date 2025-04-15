@@ -6,7 +6,7 @@ Un premier programme est toujours une étape importante pour commencer à appren
 
 Commençons par créer un fichier nommé `hello.rs` contenant le code suivant :
 
-```
+``` rust
 fn main() {
     println!("Bonjour, monde!");
 }
@@ -21,7 +21,7 @@ Quelques observations importantes sur ce code :
 
 Pour compiler ce programme, utilisez la commande suivante dans votre terminal :
 
-```
+``` bash
 rustc hello.rs
 ```
 
@@ -29,13 +29,13 @@ Cette commande génère un exécutable `hello` (ou `hello.exe` sous Windows). Po
 
 **Sous Windows :**
 
-```
+``` bash
 .\hello.exe
 ```
 
 **Sous Linux/macOS :**
 
-```
+``` bash
 ./hello
 ```
 
@@ -51,19 +51,19 @@ Vous pouvez personnaliser le processus de compilation avec diverses options :
 
 - Pour changer le nom de l'exécutable généré :
 
-```
+``` bash
 rustc hello.rs -o mon_programme
 ```
 
 - Pour compiler avec des optimisations de performance :
 
-```
+``` bash
 rustc -O hello.rs
 ```
 
 - Pour afficher les avertissements supplémentaires lors de la compilation :
 
-```
+``` bash
 rustc -W warnings hello.rs
 ```
 
@@ -71,7 +71,7 @@ rustc -W warnings hello.rs
 
 Dans la pratique, la plupart des développeurs Rust utilisent Cargo pour gérer leurs projets. Voici comment créer un projet "Hello World" avec Cargo :
 
-```
+``` bash
 cargo new hello_cargo
 cd hello_cargo
 cargo run

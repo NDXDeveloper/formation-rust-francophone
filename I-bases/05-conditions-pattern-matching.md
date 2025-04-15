@@ -6,7 +6,7 @@ Les structures de contrôle en Rust permettent de diriger l'exécution du progra
 
 En Rust, les conditions suivent une syntaxe similaire aux autres langages, mais avec quelques particularités :
 
-```
+``` rust
 let age = 17;
 if age >= 18 {
     println!("Vous êtes majeur !");
@@ -27,7 +27,7 @@ Vous pouvez combiner des conditions avec :
 - `||` : opérateur OU logique
 - `!` : opérateur de négation
 
-```
+``` rust
 let age :i32 = 25;
 let etudiant :bool = false;
 
@@ -40,7 +40,7 @@ if age >= 18 && (etudiant || age < 30) {
 
 Une particularité de Rust est la possibilité d'utiliser les conditions pour l'assignation de valeurs :
 
-```
+``` rust
 let age :i32 = 25;
 let statut = if age >= 18 { "majeur" } else { "mineur" };
 println!("Statut : {}", statut);
@@ -52,7 +52,7 @@ Cette forme est plus concise que l'utilisation d'une variable mutable modifiée 
 
 Lorsque vous travaillez avec des booléens, vous pouvez simplifier votre code :
 
-```
+``` rust
 let authentifie :bool = true;
 
 // Forme longue
@@ -82,7 +82,7 @@ Le pattern matching est une fonctionnalité puissante qui permet de comparer une
 
 Voici un exemple simple :
 
-```
+``` rust
 let langue :&str  = "français";
 
 match langue {
@@ -101,7 +101,7 @@ Le symbole `_` est un joker qui capture tous les cas non spécifiés. Il est obl
 
 Vous pouvez exécuter plusieurs instructions dans une branche de `match` en utilisant des accolades :
 
-```
+``` rust
 let note :i32 = 15;
 
 match note {
@@ -123,7 +123,7 @@ match note {
 
 Il est possible d'ajouter des conditions à un pattern avec la syntaxe `if` :
 
-```
+``` rust
 let temperature :i32 = 25;
 
 match temperature {
@@ -139,7 +139,7 @@ match temperature {
 
 Vous pouvez matcher sur des intervalles de valeurs :
 
-```
+``` rust
 let score = 75;
 
 match score {
@@ -155,7 +155,7 @@ match score {
 
 Le symbole `@` permet de capturer la valeur qui correspond au pattern :
 
-```
+``` rust
 let valeur = 42;
 
 match valeur {
@@ -169,7 +169,7 @@ match valeur {
 
 Pour matcher plusieurs valeurs possibles, utilisez le symbole `|` (OU) :
 
-```
+``` rust
 let jour = "samedi";
 
 match jour {
@@ -183,7 +183,7 @@ match jour {
 
 Rust permet également de déstructurer des structures complexes dans les patterns :
 
-```
+``` rust
 let point = (10, 20);
 
 match point {

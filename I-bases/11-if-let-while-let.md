@@ -8,7 +8,7 @@ L'expression `if let` permet de simplifier le pattern matching quand on ne s'int
 
 Prenons un exemple concret avec `Option<T>` :
 
-```
+``` rust
 fn obtenir_utilisateur(id: u32) -> Option<String> {
     if id == 42 {
         Some(String::from("Alice"))
@@ -22,7 +22,7 @@ fn obtenir_utilisateur(id: u32) -> Option<String> {
 
 Sans `if let`, nous devrions vérifier le résultat avec un `match` :
 
-```
+``` rust
 match obtenir_utilisateur(42) {
     Some(nom) => println!("Utilisateur trouvé : {}", nom),
     None => println!("Aucun utilisateur trouvé"),
@@ -31,7 +31,7 @@ match obtenir_utilisateur(42) {
 
 Avec `if let`, le code devient plus compact :
 
-```
+``` rust
 if let Some(nom) = obtenir_utilisateur(42) {
     println!("Utilisateur trouvé : {}", nom);
 } else {
@@ -43,7 +43,7 @@ if let Some(nom) = obtenir_utilisateur(42) {
 
 La puissance de `if let` va au-delà des types simples. On peut faire des correspondances de motifs complexes :
 
-```
+``` rust
 // Matching sur une valeur spécifique
 let nombre = Some(42);
 if let Some(42) = nombre {
@@ -76,7 +76,7 @@ if let Message::ChangeColor(r, g, b) = msg {
 
 De façon similaire, `while let` permet d'exécuter une boucle tant qu'un motif correspond :
 
-```
+``` rust
 let mut pile = vec![1, 2, 3, 4, 5];
 
 // Sans while let
@@ -96,7 +96,7 @@ while let Some(valeur) = pile.pop() {
 
 `while let` est particulièrement utile quand on travaille avec des itérateurs :
 
-```
+``` rust
 let mut iterateur = [1, 2, 3].iter().enumerate();
 
 while let Some((index, valeur)) = iterateur.next() {
@@ -108,7 +108,7 @@ while let Some((index, valeur)) = iterateur.next() {
 
 Le pattern matching de Rust permet également de capturer une valeur tout en vérifiant qu'elle correspond à un pattern spécifique, grâce à l'opérateur `@` :
 
-```
+``` rust
 enum Temperature {
     Celsius(i32),
     Fahrenheit(i32),

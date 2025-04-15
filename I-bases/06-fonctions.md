@@ -6,7 +6,7 @@ Les fonctions sont des blocs de code réutilisables qui permettent d'organiser l
 
 Une fonction en Rust se déclare avec le mot-clé `fn` suivi du nom de la fonction, des paramètres entre parenthèses et du type de retour (optionnel) :
 
-```
+``` rust
 fn addition(nombre1: i32, nombre2: i32) -> i32 {
     nombre1 + nombre2
 }
@@ -159,7 +159,7 @@ fn somme_carres_et_cubes(n: i32) -> i32 {
 
 Vous pouvez utiliser le mot-clé `return` pour retourner une valeur avant la fin de la fonction :
 
-```
+``` rust
 fn valeur_absolue(nombre: i32) -> i32 {
     if nombre < 0 {
         return -nombre;
@@ -172,7 +172,7 @@ fn valeur_absolue(nombre: i32) -> i32 {
 
 Les tuples permettent de retourner plusieurs valeurs depuis une fonction :
 
-```
+``` rust
 fn statistiques(nombres: &[i32]) -> (i32, i32, f64) {
     let somme: i32 = nombres.iter().sum();
     let max: i32 = *nombres.iter().max().unwrap_or(&0);
@@ -195,7 +195,7 @@ fn main() {
 
 En Rust, les fonctions peuvent être passées en paramètre à d'autres fonctions :
 
-```
+``` rust
 fn appliquer_fonction<F>(x: i32, f: F) -> i32
  where
     F: Fn(i32) -> i32,
@@ -216,7 +216,7 @@ fn main() {
 
 Les closures sont des fonctions anonymes que vous pouvez stocker dans des variables :
 
-```
+``` rust
 fn main() {
     let addition = |a, b| a + b;
     let multiplication = |a, b| a * b;
@@ -230,7 +230,7 @@ fn main() {
 
 Par défaut, les fonctions sont privées au module dans lequel elles sont définies. Pour les rendre accessibles depuis d'autres modules, utilisez le mot-clé `pub` :
 
-```
+``` rust
 pub fn fonction_publique() {
     println!("Cette fonction est accessible depuis d'autres modules");
 }
@@ -244,7 +244,7 @@ fn fonction_privee() {
 
 Rust permet de définir des fonctions associées à des types (similaires aux méthodes statiques en Java/C++) et des méthodes qui opèrent sur une instance (avec `&self`, `&mut self` ou `self`) :
 
-```
+``` rust
 struct Rectangle {
     largeur: u32,
     hauteur: u32,
@@ -282,7 +282,7 @@ fn main() {
 
 Il est important de distinguer les fonctions des macros en Rust. Les macros sont identifiées par un point d'exclamation `!` à la fin de leur nom :
 
-```
+``` rust
 // Ceci est une macro
 println!("Hello, world!");
 
@@ -304,7 +304,7 @@ Les macros sont un sujet avancé que nous explorerons plus en détail dans un ch
 
 Rust permet de créer des fonctions génériques qui fonctionnent avec différents types :
 
-```
+``` rust
 fn afficher<T: std::fmt::Display>(valeur: T) {
     println!("{}", valeur);
 }

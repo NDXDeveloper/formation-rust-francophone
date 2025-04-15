@@ -6,7 +6,7 @@ La gestion des erreurs en Rust est explicite et type-safe, ce qui contribue à l
 
 `Option<T>` représente une valeur optionnelle : soit une valeur de type `T`, soit rien.
 
-```
+``` rust
 enum Option<T> {
     Some(T),
     None,
@@ -15,7 +15,7 @@ enum Option<T> {
 
 Voici un exemple d'utilisation :
 
-```
+``` rust
 fn trouver_utilisateur(id: u32) -> Option<String> {
     let utilisateurs = vec![
         (1, "Alice"),
@@ -50,7 +50,7 @@ if let Some(nom) = trouver_utilisateur(4) {
 
 `Result<T, E>` représente soit un succès (`Ok`) contenant une valeur de type `T`, soit une erreur (`Err`) contenant une valeur de type `E`.
 
-```
+``` rust
 enum Result<T, E> {
     Ok(T),
     Err(E),
@@ -59,7 +59,7 @@ enum Result<T, E> {
 
 Exemple d'utilisation avec la lecture d'un fichier :
 
-```
+``` rust
 use std::fs::File;
 use std::io::{self, Read};
 
@@ -89,7 +89,7 @@ L'opérateur `?` permet de propager les erreurs de manière concise. Il est équ
 
 Voici comment réécrire la fonction `lire_fichier` avec l'opérateur `?` :
 
-```
+``` rust
 use std::fs::File;
 use std::io::{self, Read};
 
@@ -110,7 +110,7 @@ fn lire_fichier_court(chemin: &str) -> Result<String, io::Error> {
 
 L'opérateur `?` fonctionne avec `Option<T>` de la même manière :
 
-```
+``` rust
 fn premier_dernier_caractere(texte: &str) -> Option<(char, char)> {
     let premier = texte.chars().next()?;
     let dernier = texte.chars().last()?;
@@ -122,7 +122,7 @@ fn premier_dernier_caractere(texte: &str) -> Option<(char, char)> {
 
 Parfois, vous devez convertir un type d'erreur en un autre. L'opérateur `?` peut être utilisé avec la méthode `map_err` pour cela :
 
-```
+``` rust
 use std::fs::File;
 use std::io;
 
@@ -147,7 +147,7 @@ fn lire_configuration() -> Result<String, AppError> {
 
 `panic!` est utilisée pour les erreurs irrécupérables. Elle arrête immédiatement le programme (ou le thread actuel) :
 
-```
+``` rust
 fn diviser(a: i32, b: i32) -> i32 {
     if b == 0 {
         panic!("Division par zéro!");
