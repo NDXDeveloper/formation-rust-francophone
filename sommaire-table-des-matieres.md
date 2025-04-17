@@ -1,22 +1,22 @@
 # Sommaire
 
-## I. Les bases de la programmation en Rust
+## [I. Les bases de la programmation en Rust](I-bases/README.md)
 
 1.  [Présentation de Rust](I-bases/01-presentation-rust.md)
-2.  [Mise en place des outils](#I-bases/01-presentation-rust.md)
-3.  [Premier programme](#3-premier-programme)
-4.  [Variables](#4-variables)
-5.  [Conditions et pattern matching](#5-conditions-et-pattern-matching)
-6.  [Les fonctions](#6-les-fonctions)
-7.  [Les expressions](#7-les-expressions)
-8.  [Les boucles](#8-les-boucles)
-9.  [Les enums](#9-les-enums)
-10. [Les structures](#10-les-structures)
-11. [if let / while let](#11-if-let--while-let)
-12. [Gestion des erreurs](#12-gestion-des-erreurs)
-13. [Cargo](#13-cargo)
-14. [Utiliser des bibliothèques externes](# "#14-utiliser-des-biblioth%C3%A8ques-externes")
-15. [Jeu de devinette de mots](#15-jeu-de-devinette-de-mots)
+2.  [Mise en place des outils](I-bases/02-outils.md)
+3.  [Premier programme](I-bases/03-premier-programme.md)
+4.  [Variables](I-bases/04-variables.md)
+5.  [Conditions et pattern matching](I-bases/05-conditions-pattern-matching.md)
+6.  [Les fonctions](I-bases/06-fonctions.md)
+7.  [Les expressions](I-bases/07-expressions.md)
+8.  [Les boucles](I-bases/08-boucles.md)
+9.  [Les enums](I-bases/09-enums.md)
+10. [Les structures](I-bases/10-structures.md)
+11. [if let / while let](I-bases/11-if-let-while-let.md)
+12. [Gestion des erreurs](I-bases/12-gestion-erreurs.md)
+13. [Cargo](I-bases/13-cargo.md)
+14. [Utiliser des bibliothèques externes](I-bases/14-bibliotheques-externes..md)
+15. [Jeu de devinette de mots](I-bases/15-jeu-devinette.md)
 
 ## II. Spécificités de Rust
 
