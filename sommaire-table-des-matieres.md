@@ -2,8 +2,8 @@
 
 ## I. Les bases de la programmation en Rust
 
-1.  [Présentation de Rust](# "#1-pr%C3%A9sentation-de-rust")
-2.  [Mise en place des outils](#2-mise-en-place-des-outils)
+1.  [Présentation de Rust](I-bases/01-presentation-rust.md)
+2.  [Mise en place des outils](#I-bases/01-presentation-rust.md)
 3.  [Premier programme](#3-premier-programme)
 4.  [Variables](#4-variables)
 5.  [Conditions et pattern matching](#5-conditions-et-pattern-matching)
