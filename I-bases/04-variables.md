@@ -20,7 +20,7 @@ Ce code ne compilera pas car nous essayons de modifier une variable immuable. Po
 fn main() {
     let mut nombre = 42;
     println!("Le nombre initial est {}", nombre);
-    nombre = 50;  // Erreur de compilation !
+    nombre = 50;
     println!("Le nombre est maintenant {}", nombre);
 }
 ```
