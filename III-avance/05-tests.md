@@ -1,5 +1,7 @@
 ## 5\. Ajouter des tests
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les tests sont une partie essentielle du développement logiciel, et Rust offre un support natif pour les tests unitaires, d'intégration et de documentation. Dans ce chapitre, nous allons explorer les différentes façons de tester votre code Rust et les outils fournis par l'écosystème.
 
 ### L'attribut `#[test]`
@@ -546,3 +548,5 @@ fn test_combinaison_factorielle_fibonacci() {
 ```
 
 Les tests sont un élément essentiel du développement en Rust. Ils vous permettent de vérifier que votre code fonctionne comme prévu et continuera à fonctionner même lorsque vous apporterez des modifications. L'écosystème Rust offre de nombreux outils pour faciliter l'écriture et l'exécution de tests, ce qui contribue à la réputation de Rust en matière de fiabilité et de robustesse.
+
+⏭️ [Rc et RefCell](/III-avance/06-rc-refcell.md)

@@ -1,5 +1,7 @@
 ## 10\. Les unions
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les unions constituent un concept avancé en Rust qui permet de stocker différents types de données dans le même espace mémoire. Contrairement aux enums qui sont des types somme (un champ à la fois est actif), les unions permettent d'interpréter le même espace mémoire de différentes façons.
 
 ### Définition et propriétés
@@ -226,3 +228,5 @@ Les unions sont particulièrement utiles dans les situations suivantes :
 4.  **Interprétation de données binaires** provenant de fichiers ou du réseau
 
 En résumé, les unions sont un outil puissant mais qui demande beaucoup de précautions. La plupart des développeurs Rust n'auront que rarement besoin d'y recourir dans le code courant.
+
+⏭️ [Closure](/II-specificites/11-closure.md)

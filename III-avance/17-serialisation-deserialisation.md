@@ -1,5 +1,7 @@
 # 17\. Sérialisation et désérialisation
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La sérialisation est le processus de conversion d'objets en mémoire vers un format de données qui peut être stocké ou transmis. La désérialisation est le processus inverse. Dans Rust, l'écosystème `serde` fournit des outils puissants pour ces opérations.
 
 ## 17.1. Introduction à Serde
@@ -679,3 +681,5 @@ Serde reste l'outil de référence pour la sérialisation et la désérialisatio
 - Des approches plus avancées pour le versionnement et la compatibilité
 
 Ces améliorations permettent de profiter pleinement de la sécurité et des performances de Rust tout en bénéficiant d'un écosystème mature pour la sérialisation et la désérialisation de données.
+
+⏭️ [Création de crates et publication](/III-avance/18-creation-crates-publication.md) - Comment publier sur crates.io

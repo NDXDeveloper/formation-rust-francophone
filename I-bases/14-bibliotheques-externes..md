@@ -1,5 +1,7 @@
 ## 14\. Utiliser des bibliothèques externes
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Trouver des bibliothèques
 
 Les bibliothèques Rust (appelées "crates") peuvent être trouvées principalement via :
@@ -219,3 +221,5 @@ cargo run
 ```
 
 L'utilisation judicieuse des bibliothèques externes vous permet d'éviter de "réinventer la roue" et d'accélérer considérablement le développement de vos projets Rust.
+
+⏭️ [Jeu de devinette de mots](/I-bases/15-jeu-devinette.md)

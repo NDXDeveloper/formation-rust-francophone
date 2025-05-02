@@ -1,5 +1,7 @@
 ## 1\. Les macros procédurales (ou proc-macros)
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les macros procédurales (ou proc-macros) sont des outils puissants dans l'écosystème Rust qui permettent de générer, analyser et transformer du code pendant la compilation. Contrairement aux macros déclaratives (`macro_rules!`), les proc-macros peuvent manipuler l'arbre syntaxique directement, ce qui leur confère une grande flexibilité.
 
 ### Introduction aux proc-macros
@@ -469,3 +471,5 @@ Les macros procédurales sont un outil puissant pour la métaprogrammation en Ru
 Contrairement aux macros déclaratives qui fonctionnent par pattern-matching, les proc-macros manipulent directement l'arbre syntaxique, ce qui leur donne beaucoup plus de flexibilité. Cette puissance s'accompagne d'une complexité accrue, mais les bibliothèques comme `syn` et `quote` rendent leur développement beaucoup plus accessible.
 
 Pour aller plus loin, vous pouvez explorer des macros bien connues comme `serde_derive`, `thiserror` ou `async-trait` dont le code source est disponible publiquement et qui démontrent des utilisations avancées des proc-macros.
+
+⏭️ [La compilation conditionnelle](/III-avance/02-compilation-conditionnelle.md)

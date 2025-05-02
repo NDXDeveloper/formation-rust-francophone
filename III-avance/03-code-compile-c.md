@@ -1,5 +1,7 @@
 # 3\. Utiliser du code compilé en C
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La capacité à interagir avec du code C est l'un des grands atouts de Rust. Cette fonctionnalité, connue sous le nom de Foreign Function Interface (FFI), permet à Rust de tirer parti de l'écosystème massif de bibliothèques C existantes tout en profitant des avantages de sécurité et de performance propres à Rust. Ce chapitre vous guidera à travers les étapes essentielles pour intégrer du code C dans vos projets Rust.
 
 ## Les bases de la FFI en Rust
@@ -503,3 +505,5 @@ L'interfaçage avec du code C est une fonctionnalité puissante de Rust, mais qu
 6.  **Build scripts** : Utilisez les scripts de compilation de Cargo (`build.rs`) pour la configuration complexe de la liaison
 
 En suivant ces principes, vous pouvez profiter de l'écosystème C tout en conservant les garanties de sécurité et d'ergonomie de Rust.
+
+⏭️ [Documentation et rustdoc](/III-avance/04-documentation-rustdoc.md)

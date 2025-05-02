@@ -1,5 +1,7 @@
 ## 2\. Mise en place des outils
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La mise en place d'un environnement de développement Rust efficace est une étape cruciale pour démarrer sereinement. Rust propose un écosystème d'outils robustes et bien intégrés qui vous accompagneront tout au long de votre parcours de développement.
 
 ### Installation de Rust
@@ -361,3 +363,5 @@ sudo pacman -S base-devel openssl
 ```
 
 Maintenant que votre environnement de développement est configuré, vous êtes prêt à écrire votre premier programme Rust !
+
+⏭️ [Premier programme](/I-bases/03-premier-programme.md)

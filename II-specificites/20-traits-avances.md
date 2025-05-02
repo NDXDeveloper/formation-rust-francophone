@@ -1,5 +1,7 @@
 # 20\. **Les traits avancés** - Auto Traits, Marker Traits, Trait Bounds complexes
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction
 
 Dans les précédentes sections, nous avons exploré les bases des traits en Rust. Maintenant, plongeons dans les aspects plus avancés du système de traits, qui font partie des fonctionnalités les plus puissantes et sophistiquées du langage. Ces concepts permettent de créer des abstractions riches et sécurisées, tout en maintenant des performances optimales.
@@ -815,3 +817,5 @@ fn main() {
 Les traits avancés en Rust offrent un système de types extrêmement puissant qui permet de créer des abstractions sûres et flexibles. Grâce aux auto traits, marker traits et trait bounds complexes, vous pouvez exprimer des contraintes sophistiquées sur vos types tout en conservant la sécurité et les performances qui caractérisent Rust.
 
 Ces concepts avancés permettent de concevoir des API élégantes et de modéliser des domaines métier de manière précise, avec des garanties vérifiées par le compilateur. Maîtriser ces fonctionnalités vous permettra de tirer pleinement parti de la puissance du système de traits de Rust, l'un des piliers de sa popularité croissante.
+
+⏭️ [Le système de types avancé](/II-specificites/21-systeme-types-avance.md) - Associated Types, GAT (Generic Associated Types), HRTB

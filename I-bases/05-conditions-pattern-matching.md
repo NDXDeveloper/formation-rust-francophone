@@ -1,5 +1,7 @@
 ## 5\. Conditions et pattern matching
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les structures de contrôle en Rust permettent de diriger l'exécution du programme selon différentes conditions. Nous allons explorer en détail les conditions ainsi que le pattern matching qui est l'une des fonctionnalités les plus puissantes de Rust.
 
 ## Les conditions if / else if / else
@@ -195,3 +197,5 @@ match point {
 ```
 
 Le pattern matching est l'une des fonctionnalités les plus puissantes de Rust, et nous verrons d'autres exemples plus avancés quand nous aborderons les enums et les structures.
+
+⏭️ [Les fonctions](/I-bases/06-fonctions.md)

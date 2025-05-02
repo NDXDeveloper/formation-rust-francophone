@@ -1,5 +1,7 @@
 ## 9\. Optimisation des performances - Profiling, benchmarking avec Criterion
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ### Introduction
 
 L'optimisation des performances est une étape cruciale du développement de logiciels performants en Rust. Cette section explore les techniques pour identifier les goulots d'étranglement dans vos programmes et mesurer précisément les améliorations apportées par vos optimisations.
@@ -634,4 +636,4 @@ N'oubliez pas que Rust est déjà optimisé par défaut grâce à son modèle d'
 
 Comme le dit Donald Knuth : "L'optimisation prématurée est la racine de tous les maux". Concentrez-vous d'abord sur l'exactitude et la clarté du code, puis optimisez les parties critiques identifiées par le profiling.
 
-&nbsp;
+⏭️ [Rust embarqué](/III-avance/10-rust-embarque.md) - Introduction à la programmation sur microcontrôleurs

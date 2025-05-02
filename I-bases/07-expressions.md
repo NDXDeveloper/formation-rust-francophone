@@ -1,5 +1,7 @@
 ## 7\. Les expressions
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 En Rust, la notion d'expressions est fondamentale pour comprendre comment le langage fonctionne. Contrairement à d'autres langages, Rust est principalement basé sur les expressions plutôt que sur les instructions.
 
 ### Expressions vs déclarations
@@ -121,4 +123,6 @@ fn main() {
 ```
 
 En comprenant bien le système d'expressions en Rust, vous pourrez écrire du code plus élégant et plus concis.
+
+⏭️ [Les boucles](/I-bases/08-boucles.md)
 

@@ -1,5 +1,7 @@
 ## 9\. Les enums
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les énumérations (ou `enum`) en Rust sont beaucoup plus puissantes que celles trouvées dans d'autres langages comme C ou C++. Elles ne se limitent pas à de simples valeurs numériques mais peuvent contenir des données complexes.
 
 ### Définition d'une enum
@@ -318,3 +320,5 @@ Cet exemple montre :
 
 
 Les enums sont un outil fondamental en Rust qui, combinées avec le pattern matching, permettent d'écrire du code expressif, sûr et facile à maintenir.
+
+⏭️ [Les structures](/I-bases/10-structures.md)

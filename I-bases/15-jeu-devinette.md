@@ -1,5 +1,7 @@
 ## 15\. Jeu de devinette de mots
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Ce chapitre met en pratique les connaissances acquises précédemment en développant un jeu de devinette de mots inspiré par "Wordle" ou "Le Pendu". Voici comment se déroule une partie:
 
 1.  L'ordinateur choisit un mot aléatoire dans une liste prédéfinie
@@ -404,3 +406,5 @@ Pour implémenter certaines de ces améliorations, vous pourriez avoir besoin d'
 Ce jeu simple mais complet vous permet de mettre en pratique de nombreux concepts Rust: gestion des entrées/sorties, collections, aléatoire, gestion des erreurs et boucles de jeu.
 
 Si vous avez des questions ou des commentaires sur cette implémentation, n'hésitez pas à ouvrir une issue sur GitHub.
+
+⏭️ [II. Spécificités de Rust](/II-specificites/README.md)

@@ -1,5 +1,7 @@
 ## 10\. Rust embarqué - Introduction à la programmation sur microcontrôleurs
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ### Introduction au Rust embarqué
 
 Le Rust est particulièrement bien adapté à la programmation embarquée grâce à son contrôle précis de la mémoire, sa sécurité sans surcoût d'exécution et ses abstractions à coût zéro. Cette section introduit les concepts fondamentaux pour utiliser Rust sur des microcontrôleurs.
@@ -355,3 +357,5 @@ Pour aller plus loin dans le développement embarqué avec Rust :
 - Rejoignez la communauté Rust Embedded sur [Matrix](https://matrix.to/#/#rust-embedded:matrix.org)
 
 La prochaine étape dans votre parcours d'apprentissage pourrait être d'explorer WebAssembly avec Rust, qui est le sujet de notre prochaine section.
+
+⏭️ [WebAssembly avec Rust](/III-avance/11-webassembly.md) - Compilation vers WASM et interopérabilité avec JavaScript

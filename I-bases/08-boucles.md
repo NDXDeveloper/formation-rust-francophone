@@ -1,5 +1,7 @@
 ## 8\. Les boucles
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les boucles sont essentielles dans tout langage de programmation. Rust offre plusieurs façons d'itérer et de répéter du code avec des fonctionnalités uniques au langage.
 
 ### La boucle while
@@ -173,3 +175,5 @@ for valeur in compteur {
 ```
 
 En maîtrisant les différents types de boucles en Rust, vous pourrez exprimer clairement et efficacement la répétition et l'itération dans votre code, tout en bénéficiant des garanties de sécurité qu'offre le langage.
+
+⏭️ [Les enums](/I-bases/09-enums.md)

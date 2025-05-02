@@ -1,5 +1,6 @@
- 
 ## 13\. Cargo
+
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
 
 ## Introduction à Cargo
 
@@ -205,3 +206,5 @@ cargo publish
 ```
 
 **Important** : Une fois une version publiée, elle ne peut pas être modifiée ou supprimée. Vérifiez soigneusement avant de publier.
+
+⏭️ [Utiliser des bibliothèques externes](/I-bases/14-bibliotheques-externes..md)

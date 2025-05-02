@@ -1,5 +1,7 @@
 ## 6\. Durée de vie (ou lifetime)
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 La durée de vie (lifetime) est l'un des concepts fondamentaux de Rust qui renforce sa sécurité mémoire. Il s'agit d'un mécanisme par lequel le compilateur vérifie que les références restent valides pendant toute la durée de leur utilisation. Bien que le concept puisse sembler complexe au premier abord, sa compréhension est essentielle pour maîtriser Rust.
 
 ### Les types de durées de vie
@@ -302,3 +304,5 @@ Ce code est intentionnellement incomplet car une implémentation complète néce
 Les durées de vie en Rust peuvent sembler complexes au premier abord, mais elles constituent un mécanisme puissant pour garantir la sécurité mémoire sans avoir recours à un ramasse-miettes. La plupart du temps, l'élision des durées de vie vous évitera d'avoir à les spécifier explicitement, mais comprendre leur fonctionnement vous aidera à résoudre les problèmes lorsque le compilateur ne peut pas les déduire automatiquement.
 
 Avec la pratique, vous deviendrez plus à l'aise avec les durées de vie et apprécierez la sécurité qu'elles apportent à votre code Rust.
+
+⏭️ [Déréférencement](/II-specificites/07-dereferencement.md)

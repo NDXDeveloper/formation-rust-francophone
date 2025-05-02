@@ -1,5 +1,7 @@
 ## 4\. Documentation et rustdoc
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Rust offre un puissant générateur de documentation intégré, appelé `rustdoc`. Cet outil est celui qui génère toute la documentation officielle de la bibliothèque standard Rust (disponible sur [doc.rust-lang.org](https://doc.rust-lang.org/std/)). La bonne nouvelle est que cet outil est très simple à utiliser et produit une documentation professionnelle.
 
 ### Génération de la documentation
@@ -408,3 +410,5 @@ Pour bien maîtriser `rustdoc`, essayez ces exercices :
 5.  Ajoutez une page de documentation personnalisée en markdown
 
 La documentation est un aspect essentiel du développement en Rust. Une bonne documentation aide non seulement les autres développeurs, mais aussi vous-même lorsque vous revenez sur votre code après un certain temps. Prendre le temps de bien documenter votre code est un investissement qui sera toujours rentable à long terme.
+
+⏭️ [Ajouter des tests](/III-avance/05-tests.md)

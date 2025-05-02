@@ -1,5 +1,6 @@
- 
 ## 9\. Unsafe
+
+Retour à la [Table des matières](/SOMMAIRE.md)
 
 Le langage Rust est conçu pour garantir la sécurité mémoire, l'absence de conditions de course et d'autres comportements indéfinis. Cependant, ces garanties peuvent parfois être trop restrictives pour certaines opérations comme l'interaction avec du code C ou certaines optimisations de performance. C'est là qu'intervient le mot-clé `unsafe`.
 
@@ -232,3 +233,5 @@ fn main() {
     println!("Longueur de la chaîne: {}", longueur);
 }
 ```
+
+⏭️ [Les unions](/II-specificites/10-unions.md)

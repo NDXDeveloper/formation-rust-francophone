@@ -1,5 +1,7 @@
 ## 6\. Rc et RefCell
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Le système de propriété de Rust est l'un de ses atouts principaux, mais il peut parfois sembler restrictif. Les types `Rc` et `RefCell` offrent de la flexibilité supplémentaire lorsque les règles de propriété standard ne conviennent pas à certains scénarios.
 
 ### 6.1 RefCell: Mutabilité intérieure
@@ -361,3 +363,5 @@ fn main() {
 ```
 
 En résumé, `Rc` et `RefCell` sont des outils essentiels pour gérer les cas complexes de propriété partagée et de mutabilité en Rust, mais ils doivent être utilisés avec précaution. Comprendre comment et quand les utiliser vous aidera à concevoir des structures de données flexibles tout en préservant la sécurité que Rust garantit.
+
+⏭️ [Le multi-threading](/III-avance/07-multi-threading.md)

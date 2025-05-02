@@ -1,5 +1,7 @@
 ## 1\. Présentation de Rust
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Rust est un langage de programmation système moderne, compilé et multi-paradigme, créé pour résoudre des problèmes fondamentaux rencontrés dans d'autres langages. Il représente une fusion intelligente entre programmation impérative (comme C), orientée objet (comme C++), fonctionnelle (comme OCaml), et concurrente (comme Erlang).
 
 ### Origines et évolution
@@ -154,3 +156,5 @@ Un aspect distinctif de Rust est son cycle de publication stable et prédictible
 Cette approche permet à Rust d'évoluer constamment tout en garantissant une stabilité exceptionnelle.
 
 Le moment est maintenant venu d'installer les outils nécessaires et de commencer votre voyage dans l'univers de Rust.
+
+⏭️ [Mise en place des outils](/I-bases/02-outils.md)

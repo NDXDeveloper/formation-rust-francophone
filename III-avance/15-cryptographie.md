@@ -1,4 +1,7 @@
 ## 15. **Écosystème Rust pour la cryptographie** - Utilisation des crates de hachage et cryptographie
+
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ### 15.1 Introduction à la cryptographie en Rust
 Rust est particulièrement bien adapté aux applications cryptographiques grâce à sa sécurité mémoire, ses performances et son modèle de concurrence. L'écosystème Rust pour la cryptographie est riche et mature, offrant des implémentations soigneusement vérifiées d'algorithmes standard et modernes.
 Dans ce chapitre, nous explorerons les bibliothèques cryptographiques les plus utilisées, en nous concentrant particulièrement sur les fonctions de hachage comme SHA-2, SHA-1 et MD5, tout en abordant d'autres aspects importants de la cryptographie moderne. Avec l'édition Rust 2024, certaines API sont désormais stables dans les contextes const, ce qui peut améliorer les performances des opérations cryptographiques.
@@ -645,3 +648,5 @@ L'écosystème cryptographique de Rust continue d'évoluer avec l'édition Rust 
 Les nouvelles fonctionnalités de l'édition Rust 2024, comme les closures asynchrones et les améliorations des blocs `unsafe extern`, contribuent à améliorer encore davantage la robustesse et la flexibilité des applications cryptographiques en Rust.
 La sécurité mémoire et la gestion des ressources de Rust contribuent également à réduire les risques de vulnérabilités cryptographiques courantes, ce qui en fait un excellent choix pour les applications sensibles à la sécurité.
 En suivant les bonnes pratiques présentées dans ce chapitre, vous pourrez implémenter des solutions cryptographiques robustes dans vos projets Rust.
+
+⏭️ [Internationalisation et localisation](/III-avance/16-internationalisation.md) - Gestion des langues et formats internationaux

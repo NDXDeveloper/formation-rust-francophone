@@ -1,5 +1,7 @@
 # 13\. **Base de données** - Connexion et manipulation de bases de données
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction
 L'interaction avec les bases de données reste une composante essentielle des applications modernes. Pour la Rust 2024 Edition, les bibliothèques de base de données ont évolué avec de nouvelles fonctionnalités et améliorations. Voici une mise à jour du tutoriel original adapté aux dernières versions des bibliothèques.
 ## Bibliothèques populaires pour les bases de données en Rust
@@ -629,3 +631,5 @@ Les principales améliorations comprennent:
 
 Que vous préfériez une approche de bas niveau avec des requêtes SQL brutes, ou une abstraction de haut niveau avec un ORM, l'écosystème Rust 2024 pour les bases de données offre des solutions robustes et performantes.
 Comme toujours, choisissez la bibliothèque qui convient le mieux à votre cas d'utilisation spécifique, en tenant compte de facteurs tels que les performances, la complexité du schéma et le type de base de données que vous utilisez.
+
+⏭️ [Génération de bindings](/III-avance/14-generation-bindings.md) - Création d'interfaces pour d'autres langages

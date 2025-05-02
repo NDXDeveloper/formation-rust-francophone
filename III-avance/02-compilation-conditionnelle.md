@@ -1,5 +1,7 @@
 ## 2\. La compilation conditionnelle
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La compilation conditionnelle permet d'inclure ou d'exclure certaines parties de votre code selon des conditions spécifiques, comme le système d'exploitation cible, l'architecture, ou des fonctionnalités optionnelles. En Rust, cette fonctionnalité est essentielle pour développer des applications multi-plateformes ou personnalisables.
 
 ### Contexte et comparaison avec C
@@ -363,3 +365,5 @@ fn main() {
 La compilation conditionnelle en Rust offre une approche puissante et flexible pour adapter votre code à différents environnements, architectures et cas d'utilisation. Grâce à l'attribut `#[cfg]`, l'attribut `cfg_attr` et la macro `cfg!`, vous pouvez écrire un code qui s'adapte automatiquement à son contexte de compilation, tout en maintenant la clarté et la sécurité que Rust garantit.
 
 Cette fonctionnalité est particulièrement précieuse pour les bibliothèques multiplateformes et les applications qui doivent s'adapter à différents environnements d'exécution, tout en conservant une base de code unifiée et facile à maintenir.
+
+⏭️ [Utiliser du code compilé en C](/III-avance/03-code-compile-c.md)

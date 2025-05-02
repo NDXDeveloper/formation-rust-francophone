@@ -1,5 +1,7 @@
 # 14\. Box
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction aux pointeurs intelligents
 
 En Rust, le type `Box<T>` est l'un des pointeurs intelligents (smart pointers) les plus simples et fondamentaux. Contrairement à d'autres langages où l'allocation mémoire est implicite, Rust vous donne un contrôle précis sur l'emplacement de stockage de vos données.
@@ -248,3 +250,5 @@ fn main() {
 ## Conclusion
 
 `Box<T>` est un outil fondamental dans la boîte à outils Rust pour gérer l'allocation mémoire sur le tas. Bien qu'il soit souvent moins visible que d'autres fonctionnalités du langage, sa compréhension est essentielle pour créer des structures de données complexes et pour optimiser l'utilisation de la mémoire dans vos applications Rust.
+
+⏭️ [Les itérateurs](/II-specificites/15-iterateurs.md)

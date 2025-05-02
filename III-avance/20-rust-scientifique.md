@@ -1,4 +1,7 @@
 ## 20. **Rust pour le domaine scientifique** - Calcul numérique, interfaçage avec Python, etc.
+
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Rust se positionne de plus en plus comme une alternative performante et fiable pour le calcul scientifique. Bien que l'écosystème scientifique de Rust soit encore jeune par rapport à Python ou R, il évolue rapidement et offre des avantages considérables en termes de performances et de sécurité. Dans cette section, nous explorerons les outils et techniques actualisés pour utiliser Rust dans le domaine scientifique.
 ### 20.1 Les bibliothèques numériques en Rust
 #### 20.1.1 ndarray - Manipulation de tableaux multidimensionnels
@@ -1234,3 +1237,5 @@ fn main() {
 L'écosystème Rust pour le calcul scientifique continue de s'améliorer, avec l'édition 2024 offrant des performances accrues et une meilleure intégration avec les outils existants. Les bibliothèques comme `ndarray`, `nalgebra`, `polars` et `PyO3` permettent aux développeurs d'exploiter la sécurité et les performances de Rust tout en conservant la richesse de l'écosystème scientifique de Python.
 
 Avec la stabilisation des fonctionnalités avancées comme les génériques associés et les traits spécialisés, Rust devient une option de plus en plus attrayante pour le développement d'applications scientifiques performantes et fiables.
+
+⏭️ [Zero-cost abstractions avancées](/III-avance/21-zero-cost-abstractions.md) - Exemples et techniques pour créer des abstractions sans coût à l'exécution

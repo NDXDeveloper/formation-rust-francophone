@@ -67,4 +67,4 @@
 20. [Rust pour le domaine scientifique](III-avance/20-rust-scientifique.md) - Calcul numérique, interfaçage avec Python, etc.
 21. [Zero-cost abstractions avancées](III-avance/21-zero-cost-abstractions.md) - Exemples et techniques pour créer des abstractions sans coût à l'exécution
 
-## [Conclusion du tutoriel Rust](III-avance/22-conclusion-tutoriel-rust.md)
+

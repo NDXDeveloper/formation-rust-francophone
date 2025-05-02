@@ -1,5 +1,7 @@
 # 8\. Le réseau
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction aux réseaux en Rust
 
 Rust offre une excellente bibliothèque standard pour le développement réseau. Dans cette section, nous explorerons principalement les communications réseau en mode "connecté", communément appelé TCP. Cette connaissance vous permettra ensuite d'utiliser d'autres protocoles comme UDP (mode "non-connecté") sans difficulté majeure.
@@ -594,3 +596,5 @@ Voici quelques conseils pour écrire du code réseau robuste en Rust:
 Cette introduction au réseau en Rust vous donne les outils de base pour créer des applications client-serveur robustes. Pour des applications plus complexes ou à haute performance, vous pourriez envisager des bibliothèques comme Tokio ou async-std qui offrent des capacités asynchrones avancées.
 
 Le modèle de sécurité mémoire strict de Rust est particulièrement bénéfique pour les applications réseau, où les erreurs peuvent avoir des conséquences graves sur la sécurité et la stabilité.
+
+⏭️ [Optimisation des performances](/III-avance/09-optimisation-performances.md) - Profiling, benchmarking avec Criterion

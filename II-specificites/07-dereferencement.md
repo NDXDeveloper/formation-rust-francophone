@@ -1,5 +1,7 @@
 ## 7\. Déréférencement
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Le déréférencement est un concept fondamental en Rust qui permet d'accéder à la valeur pointée par une référence. Comprendre ce mécanisme est essentiel pour maîtriser la manipulation des références et des pointeurs en Rust.
 
 ### Principe de base
@@ -124,3 +126,5 @@ fn main() {
 ```
 
 Le compilateur applique autant de déréférencements que nécessaire pour trouver la méthode appropriée.
+
+⏭️ [Sized et String vs str](/II-specificites/08-sized-string-str.md)

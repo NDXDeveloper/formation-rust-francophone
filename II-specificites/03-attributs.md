@@ -1,5 +1,7 @@
 ## 3\. Les attributs
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les attributs en Rust sont des métadonnées puissantes qui peuvent être appliquées à différents éléments du code. Ils servent à communiquer des informations supplémentaires au compilateur ou à d'autres outils. Ces métadonnées peuvent modifier le comportement de la compilation, générer des avertissements personnalisés, ou ajouter automatiquement des fonctionnalités à vos types.
 
 ### Formes des attributs
@@ -375,3 +377,5 @@ pub fn optimisations_64bits() {
 Les attributs en Rust constituent un mécanisme puissant et extensible pour ajouter des métadonnées à votre code. Ils vous permettent de contrôler la compilation, d'ajouter des comportements automatiques à vos types, et de guider les utilisateurs de votre code. Bien utilisés, ils peuvent considérablement améliorer la qualité, la lisibilité et la robustesse de vos programmes Rust.
 
 Pour une documentation exhaustive sur tous les attributs disponibles, consultez la [documentation officielle de Rust](https://doc.rust-lang.org/reference/attributes.html).
+
+⏭️ [Généricité](/II-specificites/04-genericite.md)

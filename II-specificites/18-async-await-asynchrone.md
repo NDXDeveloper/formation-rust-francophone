@@ -1,5 +1,7 @@
 # 18\. **Async/Await et programmation asynchrone**
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction aux futures et à la programmation asynchrone
 
 La programmation asynchrone est une technique puissante qui permet à votre code d'exécuter plusieurs tâches apparemment simultanément, sans bloquer l'exécution du programme. En Rust, cette approche est implémentée via le paradigme `async/await` qui repose sur des "futures" (futurs).
@@ -259,3 +261,5 @@ Les points clés à retenir:
 - Privilégiez toujours les versions asynchrones des opérations d'I/O
 
 La maîtrise de la programmation asynchrone en Rust ouvre la porte à des applications hautement performantes capables de gérer des milliers de connexions simultanées avec un minimum de ressources.
+
+⏭️ [Pinning et futures](/II-specificites/19-pinning-futures.md) - Concept de pinning pour les types non déplaçables

@@ -1,5 +1,7 @@
 ## 4\. Généricité
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 La généricité est l'un des concepts fondamentaux de Rust qui permet d'écrire du code flexible et réutilisable sans sacrifier la sécurité ni les performances. Elle permet de manipuler différents types de données avec le même code, tout en gardant la vérification des types à la compilation.
 
 ### Les bases de la généricité
@@ -391,3 +393,5 @@ La généricité en Rust offre un excellent équilibre entre flexibilité, sécu
 Cette approche est au cœur de nombreuses bibliothèques de l'écosystème Rust, et comprendre la généricité est essentiel pour écrire du code Rust idiomatique et performant.
 
 Pour aller plus loin, explorez les traits et types génériques de la bibliothèque standard comme `Iterator`, `IntoIterator` et `FromIterator`, qui illustrent parfaitement comment la généricité et les traits peuvent être combinés pour créer des abstractions puissantes et performantes.
+
+⏭️ [Propriété (ou ownership)](/II-specificites/05-ownership.md)

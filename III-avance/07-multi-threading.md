@@ -1,5 +1,7 @@
 # 7\. Le Multi-threading
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction au multi-threading en Rust
 
 Le multi-threading est un concept fondamental en programmation moderne, permettant d'exécuter plusieurs segments de code en parallèle. Rust offre une approche unique grâce à son système de propriété, garantissant la sécurité des données partagées entre threads.
@@ -577,3 +579,5 @@ Le multi-threading en Rust combine sécurité des types et performance grâce à
 5.  Des bibliothèques comme `crossbeam` et `rayon` simplifient les patterns complexes
 
 En suivant ces principes, vous pouvez développer des applications concurrentes robustes et performantes sans les bugs difficiles à reproduire qui affligent habituellement la programmation parallèle.
+
+⏭️ [Le réseau](/III-avance/08-reseau.md)

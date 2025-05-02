@@ -1,5 +1,7 @@
 ## 5\. Propriété (ou ownership)
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Le concept de propriété (ownership) est l'une des caractéristiques les plus distinctives de Rust. C'est à la fois ce qui rend le langage si sûr et ce qui peut sembler déroutant pour les nouveaux développeurs.
 
 ### Principes fondamentaux
@@ -189,3 +191,5 @@ fn main() {
 Le système de propriété de Rust peut sembler contraignant au début, mais c'est cette rigueur qui permet au compilateur de garantir l'absence de nombreux bugs courants comme les fuites mémoire, les accès concurrents non sécurisés et les erreurs de pointeurs nuls, tout en maintenant des performances excellentes.
 
 Dans le prochain chapitre, nous approfondirons le concept de durée de vie (lifetime) qui est étroitement lié au système de propriété et qui permet au compilateur de garantir que les références sont toujours valides.
+
+⏭️ [Durée de vie (ou lifetime)](/II-specificites/06-lifetime.md)

@@ -1,5 +1,7 @@
 # 17\. Pattern matching avancé
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Le pattern matching est l'une des fonctionnalités les plus puissantes de Rust. Nous avons déjà vu ses bases dans la section 5, mais il est temps d'explorer ses capacités avancées. Ces techniques vous permettront d'écrire du code plus expressif et concis tout en conservant la sécurité et les vérifications d'exhaustivité que Rust garantit.
 
 ## 17.1. Rappel des concepts de base
@@ -434,3 +436,5 @@ Le pattern matching avancé est l'une des fonctionnalités les plus puissantes d
 Ces techniques sont particulièrement utiles pour travailler avec des structures de données complexes, des types algébriques (enums avec données), et pour implémenter des algorithmes qui nécessitent une analyse précise des données.
 
 L'exhaustivité vérifiée par le compilateur garantit que vous n'oubliez aucun cas possible, ce qui contribue à la robustesse de votre code. Maîtriser le pattern matching avancé vous permettra d'exploiter pleinement la puissance du système de types de Rust.
+
+⏭️ [Async/Await et programmation asynchrone](/II-specificites/18-async-await-asynchrone.md) - Introduction aux futures et à la programmation asynchrone

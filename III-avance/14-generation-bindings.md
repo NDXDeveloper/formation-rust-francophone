@@ -1,5 +1,7 @@
- 
 ## 14. **Génération de bindings** - Création d'interfaces pour d'autres langages
+
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La puissance de Rust peut être exploitée par d'autres langages de programmation grâce à la génération de bindings. Cette technique permet de créer des interfaces entre Rust et d'autres langages, rendant possible l'utilisation de code Rust depuis C, Python, JavaScript et bien d'autres.
 ### 14.1 Pourquoi créer des bindings ?
 Plusieurs raisons peuvent motiver la création d'interfaces entre Rust et d'autres langages :
@@ -376,3 +378,5 @@ Pour adapter ce tutoriel à la Rust 2024 Edition, les modifications suivantes on
 4. **Annotations explicites** : Ajustement des annotations pour garantir la compatibilité avec les nouvelles règles de sécurité et de capture de durée de vie
 
 Ces modifications permettent de tirer profit des nouvelles fonctionnalités de Rust 2024 Edition tout en maintenant la compatibilité avec le code existant.
+
+⏭️ [Écosystème Rust pour la cryptographie](/III-avance/15-cryptographie.md) - Utilisation des crates de hachage et cryptographie (sha2, sha1, md5)

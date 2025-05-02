@@ -1,5 +1,7 @@
 ## 10\. Les structures
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les structures en Rust permettent de définir des types personnalisés en regroupant des données associées. Elles sont essentielles pour organiser votre code et créer des abstractions.
 
 ### Types de structures
@@ -387,3 +389,5 @@ println!("25°C = {}°F", temp_f.0);
 ### Récapitulatif
 
 Les structures en Rust sont un outil fondamental pour organiser vos données. Combinées avec les méthodes et les traits, elles permettent de créer des abstractions puissantes tout en garantissant la sécurité et la performance de votre code.
+
+⏭️ [if let / while let](/I-bases/11-if-let-while-let.md)

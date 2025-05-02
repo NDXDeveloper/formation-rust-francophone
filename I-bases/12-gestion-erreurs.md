@@ -1,5 +1,7 @@
 ## 12\. Gestion des erreurs
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La gestion des erreurs en Rust est explicite et type-safe, ce qui contribue à la fiabilité du code. Contrairement à d'autres langages qui utilisent des exceptions ou des valeurs nulles, Rust propose des types spécifiques pour représenter les erreurs potentielles.
 
 ### Option
@@ -285,3 +287,5 @@ fn main() {
 Cette approche de gestion des erreurs encourage à traiter explicitement tous les cas possibles, rendant votre code plus robuste et prévisible.
 
 La gestion des erreurs en Rust encourage les bonnes pratiques de programmation en rendant explicites les cas d'erreur, tout en restant flexible pour s'adapter à différents besoins.
+
+⏭️ [Cargo](/I-bases/13-cargo.md)

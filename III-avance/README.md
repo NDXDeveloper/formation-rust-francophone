@@ -1,5 +1,7 @@
 # III. Aller plus loin
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Explorer les possibilités avancées de Rust dans le monde réel
 
 Félicitations ! Vous avez parcouru un long chemin dans votre apprentissage de Rust. Après avoir maîtrisé les fondamentaux et approfondi les spécificités qui rendent ce langage unique, il est temps d'explorer comment Rust peut être appliqué à des domaines spécialisés et des cas d'usage concrets.
@@ -62,3 +64,5 @@ Cette troisième partie marque non pas la fin de votre apprentissage, mais plut�
 * * *
 
 Préparez-vous à découvrir les possibilités avancées qu'offre Rust et à appliquer vos connaissances à des projets concrets et passionnants. Commençons cette exploration avec les macros procédurales, un outil puissant qui vous permettra d'étendre le langage lui-même.
+
+⏭️ [Les macros procédurales (ou proc-macros)](/III-avance/01-proc-macros.md)

@@ -1,6 +1,6 @@
 ## 11\. **WebAssembly avec Rust** - Compilation vers WASM et interopérabilité avec JavaScript
 
-
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
 
 ## Introduction à WebAssembly
 WebAssembly (ou WASM) est un format de code binaire qui permet d'exécuter du code compilé à des vitesses proches du natif dans les navigateurs web. Rust est particulièrement bien adapté pour cibler WebAssembly grâce à son système de compilation, sa gestion de la mémoire sans garbage collector, et ses performances élevées.
@@ -604,3 +604,5 @@ Pour aller plus loin :
 - Analysez les performances de votre code WASM avec les outils de développement des navigateurs
 
 WebAssembly continue son évolution et Rust 2024 renforce sa position comme langage de choix pour cette technologie, offrant un excellent compromis entre performances, sécurité et productivité.
+
+⏭️ [Interface graphique](/III-avance/12-interface-graphique.md) - Introduction aux frameworks GUI disponibles (GTK, Egui, etc.)

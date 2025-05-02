@@ -1,5 +1,7 @@
 # 19\. **Pinning et futures** - Concept de pinning pour les types non déplaçables
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction au problème de l'auto-référencement
 
 Dans la programmation asynchrone en Rust, nous rencontrons un problème fondamental : les futures peuvent contenir des références à d'autres données au sein de la même structure. Ces structures sont dites "auto-référencées" car elles contiennent des pointeurs vers leurs propres champs. Ce type de structure pose un problème particulier en Rust car lorsqu'un objet est déplacé en mémoire, ses adresses internes changent, mais les références internes continuent de pointer vers les anciennes adresses.
@@ -332,3 +334,5 @@ Le concept de pinning en Rust résout un problème fondamental des structures au
 Bien que le pinning puisse sembler complexe au premier abord, il constitue une solution élégante et sûre du point de vue des types pour permettre la programmation asynchrone avec des futures qui peuvent s'auto-référencer. Les abstractions comme `async/await` et des outils comme `pin-project` rendent ce concept beaucoup plus accessible dans la pratique quotidienne.
 
 Le pinning est un exemple de la façon dont Rust résout des problèmes complexes de sécurité mémoire tout en offrant des garanties fortes à la compilation, sans compromettre la performance.
+
+⏭️ [Les traits avancés](/II-specificites/20-traits-avances.md) - Auto Traits, Marker Traits, Trait Bounds complexes

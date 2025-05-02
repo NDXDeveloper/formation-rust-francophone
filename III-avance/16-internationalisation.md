@@ -1,5 +1,7 @@
 # 16. Internationalisation et localisation pour Rust 2024 edition
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Je vais analyser et mettre à jour ce tutoriel pour la Rust 2024 edition. Pour cela, je dois d'abord vérifier les versions actuelles des bibliothèques d'internationalisation pour Rust.# 16. Internationalisation et localisation
 
 L'internationalisation (i18n) et la localisation (l10n) sont essentielles pour développer des applications accessibles à un public international. Dans cette section, nous allons explorer comment gérer les langues et formats internationaux en Rust 2024 edition.
@@ -478,3 +480,5 @@ Pour créer une application bien internationalisée :
 L'internationalisation et la localisation sont des aspects importants pour rendre votre application accessible à un public international. Rust 2024 édition offre plusieurs bibliothèques robustes et à jour pour gérer ces aspects, permettant de créer des applications vraiment multilingues et adaptées aux conventions locales.
 
 En suivant les bonnes pratiques d'internationalisation dès le début du développement, vous pourrez éviter de nombreux problèmes liés à l'adaptation de votre application pour différentes régions du monde.
+
+⏭️ [Sérialisation et désérialisation](/III-avance/17-serialisation-deserialisation.md) - Utilisation de serde pour JSON, YAML, etc.

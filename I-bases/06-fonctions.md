@@ -1,5 +1,7 @@
 ## 6\. Les fonctions
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les fonctions sont des blocs de code réutilisables qui permettent d'organiser logiquement votre programme. En Rust, les fonctions jouent un rôle central dans l'organisation du code.
 
 ## Déclaration de fonctions
@@ -319,3 +321,5 @@ fn main() {
 La programmation générique sera explorée plus en profondeur dans les chapitres suivants.
 
 Les fonctions en Rust sont très puissantes et constituent la base de toute organisation du code. Comprendre comment les définir et les utiliser efficacement est essentiel pour écrire du code Rust robuste et expressif.
+
+⏭️ [Les expressions](/I-bases/07-expressions.md)

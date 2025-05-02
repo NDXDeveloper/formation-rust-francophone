@@ -1,5 +1,6 @@
- 
 ## 12\. Multi-fichier
+
+Retour à la [Table des matières](/SOMMAIRE.md)
 
 L'organisation du code en plusieurs fichiers est essentielle pour maintenir un projet propre et maintenable à mesure qu'il grandit. Rust offre un système de modules puissant mais qui peut parfois sembler déroutant pour les débutants.
 
@@ -310,3 +311,5 @@ mon_projet/
 ```
 
 La bonne organisation des fichiers est un élément clé pour maintenir un projet Rust à mesure qu'il évolue. Le système de modules de Rust offre une grande flexibilité pour structurer votre code de manière logique et modulaire, facilitant ainsi la navigation et la maintenance à long terme.
+
+⏭️ [Les macros](/II-specificites/13-macros.md)

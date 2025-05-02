@@ -1,5 +1,7 @@
 ## 11\. Closure
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les closures représentent un concept fondamental en Rust et sont particulièrement puissantes pour qui cherche à écrire du code concis et expressif. Si vous avez déjà utilisé des langages fonctionnels, ce concept vous sera familier.
 
 ### Qu'est-ce qu'une closure ?
@@ -516,3 +518,5 @@ mon_projet/
 ```
 
 La bonne organisation des fichiers est un élément clé pour maintenir un projet Rust à mesure qu'il évolue. Le système de modules de Rust offre une grande flexibilité pour structurer votre code de manière logique et modulaire, facilitant ainsi la navigation et la maintenance à long terme.
+
+⏭️ [Multi-fichier](/II-specificites/12-multi-fichier.md)

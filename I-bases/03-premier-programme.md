@@ -1,5 +1,7 @@
 ## 3\. Premier programme
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Un premier programme est toujours une étape importante pour commencer à apprendre un nouveau langage. En Rust, c'est particulièrement intéressant car on peut déjà observer certaines particularités du langage.
 
 ### 3.1 Création et compilation d'un programme simple
@@ -78,3 +80,5 @@ cargo run
 ```
 
 Cette dernière commande compile et exécute automatiquement votre programme. Le code se trouve dans `src/main.rs`.
+
+⏭️ [Variables](/I-bases/04-variables.md)

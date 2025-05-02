@@ -1,5 +1,7 @@
 ## 8\. Sized et String vs str
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 La compréhension des types de taille connue ("sized") et inconnue ("unsized") est fondamentale en Rust, particulièrement pour manipuler correctement les chaînes de caractères.
 
 ### Le trait `Sized`
@@ -162,3 +164,5 @@ En règle générale :
 - Utilisez `String` pour les chaînes construites ou modifiées à l'exécution
 
 La compréhension de ces deux types et de leur relation est essentielle pour une programmation efficace en Rust.
+
+⏭️ [Unsafe](/II-specificites/09-unsafe.md)

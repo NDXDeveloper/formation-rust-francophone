@@ -1,5 +1,7 @@
 ## 2\. Les traits
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les traits sont l'un des concepts les plus puissants de Rust. Ils définissent un comportement partagé entre différents types, un peu comme les interfaces dans d'autres langages, mais avec des fonctionnalités supplémentaires.
 
 ### Définition et utilisation de base
@@ -351,3 +353,5 @@ fn main() {
 ```
 
 Les traits sont l'un des mécanismes fondamentaux de Rust qui permettent de créer des abstractions puissantes sans sacrifier les performances. Ils sont au cœur de nombreuses fonctionnalités du langage, de la généricité à la surcharge d'opérateurs, en passant par la programmation orientée trait qui définit le style idiomatique de Rust.
+
+⏭️ [Les attributs](/II-specificites/03-attributs.md)

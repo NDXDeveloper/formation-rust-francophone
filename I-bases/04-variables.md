@@ -1,5 +1,7 @@
 ## 4\. Variables
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les variables sont un concept fondamental dans tout langage de programmation. Rust introduit plusieurs particularités importantes dans la gestion des variables qui le distinguent des autres langages.
 
 ### 4.1 Immuabilité par défaut
@@ -305,3 +307,5 @@ Les constantes et variables statiques :
 - Ne peuvent pas être modifiées (sauf avec `static mut` dans un bloc `unsafe`)
 
 Les constantes sont plus couramment utilisées que les variables statiques en Rust.
+
+⏭️ [Conditions et pattern matching](/I-bases/05-conditions-pattern-matching.md)

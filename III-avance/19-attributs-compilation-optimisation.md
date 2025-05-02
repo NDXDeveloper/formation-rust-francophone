@@ -1,5 +1,7 @@
 ## 19\. **Les attributs de compilation et optimisation** - Flags de compilation, optimisations spécifiques
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 L'optimisation des programmes Rust est un aspect crucial lorsqu'on vise des performances maximales. Dans cette section, nous allons explorer les différentes options de compilation, attributs et techniques d'optimisation disponibles pour les développeurs Rust.
 ## 19.1 Les niveaux d'optimisation de Cargo
 Les commandes de base pour la compilation n'ont pas changé :
@@ -417,3 +419,5 @@ L'optimisation en Rust 2024 Edition offre encore plus d'options qu'auparavant. L
 4. Vérifier les résultats par des benchmarks
 
 Les nouvelles fonctionnalités de Rust 2024 permettent des optimisations encore plus poussées, mais rappelons-nous que le choix d'un meilleur algorithme reste souvent l'optimisation la plus importante.
+
+⏭️ [Rust pour le domaine scientifique](/III-avance/20-rust-scientifique.md) - Calcul numérique, interfaçage avec Python, etc.

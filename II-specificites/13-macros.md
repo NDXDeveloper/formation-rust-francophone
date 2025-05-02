@@ -1,5 +1,7 @@
 # 13\. Les macros
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Les macros sont l'un des éléments les plus puissants de Rust, permettant une métaprogrammation qui étend considérablement les capacités du langage. Contrairement aux fonctions, les macros manipulent le code avant la compilation, ce qui leur confère une flexibilité unique.
 
 ## 13.1 Définition et syntaxe de base
@@ -547,3 +549,5 @@ Les macros restent cependant incontournables pour certains cas d'utilisation com
 * * *
 
 Les macros constituent un outil extrêmement puissant dans l'arsenal du programmeur Rust. Bien que leur syntaxe puisse paraître intimidante au premier abord, elles offrent des possibilités de métaprogrammation qui dépassent largement celles offertes par de nombreux autres langages. Elles permettent notamment de réduire considérablement la duplication de code et d'étendre efficacement le langage pour répondre à des besoins spécifiques.
+
+⏭️ [Box](/II-specificites/14-box.md)

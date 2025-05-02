@@ -1,5 +1,7 @@
 # 15\. Les itérateurs
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction aux itérateurs
 
 Les itérateurs sont l'un des concepts les plus puissants et fondamentaux en Rust. Ils permettent de parcourir des collections d'éléments de manière efficace, expressive et sans risque d'erreur de mémoire. Contrairement à d'autres langages où les itérateurs peuvent être des concepts secondaires, en Rust, ils font partie intégrante de l'écosystème et sont utilisés partout.
@@ -321,3 +323,5 @@ Les itérateurs sont l'une des fonctionnalités les plus puissantes de Rust. Ils
 Maîtriser les itérateurs est essentiel pour écrire du code Rust idiomatique et efficace. En pratique, vous utiliserez souvent des adaptateurs d'itérateurs plutôt que d'implémenter le trait `Iterator` directement, mais comprendre le mécanisme sous-jacent vous aidera à mieux utiliser cet outil puissant.
 
 Pour aller plus loin, explorez le module `std::iter` qui contient de nombreuses fonctions utilitaires pour créer et manipuler des itérateurs sans avoir à implémenter le trait vous-même.
+
+⏭️ [Les traits objets et dynamic dispatch](/II-specificites/16-traits-objets-dynamic-dispatch.md) - Approfondissement sur `dyn Trait`

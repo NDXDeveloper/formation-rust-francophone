@@ -1,5 +1,7 @@
 # 12\. **Interface graphique** - Introduction aux frameworks GUI disponibles (GTK, Egui, etc.)
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction
 L'écosystème Rust continue d'offrir plusieurs options pour développer des interfaces graphiques (GUI). Contrairement à d'autres langages, Rust n'a toujours pas de bibliothèque GUI "officielle", mais dispose d'un écosystème diversifié de frameworks qui évoluent rapidement pour répondre aux différents besoins des développeurs.
 ## Les principaux frameworks GUI en Rust (2024)
@@ -245,3 +247,5 @@ Nouveau venu dans l'écosystème, Xilem est un framework de rendu développé pa
 ## Conclusion
 L'écosystème GUI de Rust a considérablement mûri depuis 2021, avec des frameworks établis qui ont gagné en stabilité et en fonctionnalités. Tauri en particulier s'est imposé comme une solution de premier plan pour les applications de bureau multiplateformes en entreprise, tandis que les développeurs travaillant sur des applications embarquées ou des outils spécialisés disposent maintenant d'options plus matures comme Slint et Egui.
 Le choix d'un framework GUI en Rust dépend toujours de vos besoins spécifiques, mais la bonne nouvelle est que l'écosystème offre désormais des options plus stables et mieux documentées pour presque tous les cas d'utilisation.
+
+⏭️ [Base de données](/III-avance/13-base-donnees.md) - Connexion et manipulation de bases de données

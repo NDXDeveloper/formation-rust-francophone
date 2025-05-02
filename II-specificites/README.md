@@ -1,5 +1,6 @@
- 
 # II. Spécificités de Rust
+
+Retour à la [Table des matières](/SOMMAIRE.md)
 
 ## Introduction aux fonctionnalités qui rendent Rust unique
 
@@ -54,3 +55,5 @@ Préparez-vous à approfondir votre compréhension de Rust et à découvrir ce q
 * * *
 
 Dans les chapitres suivants, nous explorerons chaque spécificité en détail, avec des exemples concrets et des exercices pour renforcer votre compréhension. Commençons notre exploration avec le formatage des flux, une première illustration de l'approche ergonomique de Rust.
+
+⏭️ [Le formatage des flux](/II-specificites/01-formatage-flux.md)

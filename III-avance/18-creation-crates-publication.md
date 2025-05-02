@@ -1,4 +1,7 @@
 ## 18. **Création de crates et publication** - Comment publier sur crates.io
+
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 La publication de bibliothèques sur crates.io permet de partager votre code avec la communauté Rust. Dans cette section, nous allons explorer le processus complet de création d'une bibliothèque et sa publication.
 ### 18.1 Préparer un crate pour la publication
 Commençons par créer une nouvelle bibliothèque :
@@ -305,3 +308,5 @@ L'édition 2024 apporte plusieurs améliorations dont vous pouvez tirer parti da
 
 ### 18.11 Conclusion
 La publication de crates sur crates.io est un excellent moyen de contribuer à l'écosystème Rust. En suivant ces étapes et bonnes pratiques, vous pouvez créer des bibliothèques utiles, bien documentées et faciles à utiliser pour d'autres développeurs Rust. L'utilisation de l'édition 2024 vous permet de profiter des dernières fonctionnalités du langage tout en étant explicite sur les exigences de version pour les utilisateurs de votre crate.
+
+⏭️ [Les attributs de compilation et optimisation](/III-avance/19-attributs-compilation-optimisation.md) - Flags de compilation, optimisations spécifiques

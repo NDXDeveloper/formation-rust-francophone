@@ -1,5 +1,7 @@
 ## 11\. if let / while let
 
+🔝 Retour à la [Table des matières](/SOMMAIRE.md)
+
 Le pattern matching est une fonctionnalité très puissante en Rust. Les expressions `if let` et `while let` offrent une syntaxe plus concise pour certains cas d'utilisation courants.
 
 ### if let
@@ -143,3 +145,5 @@ if let Temperature::Celsius(valeur) = temp {
     }
 }
 ```
+
+⏭️ [Gestion des erreurs](/I-bases/12-gestion-erreurs.md)

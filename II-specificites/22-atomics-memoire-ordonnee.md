@@ -1,5 +1,6 @@
- 
 ## 22\. **Les atomics et la mémoire ordonnée** - `std::sync::atomic` et modèles de mémoire
+
+Retour à la [Table des matières](/SOMMAIRE.md)
 
 ### Introduction aux atomics
 
@@ -308,3 +309,5 @@ Les types atomiques offrent un mécanisme de synchronisation de bas niveau et ef
 Cependant, leur utilisation correcte nécessite une bonne compréhension des modèles de mémoire et des garanties offertes par chaque niveau d'ordonnancement. Pour des cas plus complexes, des abstractions de plus haut niveau comme `Mutex`, `RwLock` ou d'autres structures de la crate `crossbeam` peuvent être plus appropriées et plus sûres à utiliser.
 
 L'utilisation des atomiques est un excellent exemple de la philosophie de Rust qui permet d'accéder à des primitives de bas niveau tout en maintenant un système de types fort et des garanties de sécurité.
+
+⏭️ [III. Aller plus loin](/III-avance/README.md)

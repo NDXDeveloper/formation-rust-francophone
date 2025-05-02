@@ -1,5 +1,7 @@
 # 16\. Les traits objets et dynamic dispatch
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Dans les sections précédentes, nous avons exploré les traits et la généricité en Rust. Nous allons maintenant approfondir un concept important : les traits objets et le dynamic dispatch. Ces mécanismes nous permettent d'implémenter un polymorphisme plus souple, au prix d'une légère perte de performance.
 
 ## 16.1. Rappel sur les traits et la généricité
@@ -292,3 +294,5 @@ Les traits objets et le dynamic dispatch offrent une flexibilité précieuse en 
 En pratique, Rust encourage à utiliser le static dispatch quand c'est possible pour des raisons de performance, mais les traits objets restent un outil puissant dans notre boîte à outils pour les cas où la flexibilité est prioritaire.
 
 Le choix entre static et dynamic dispatch dépend donc de vos besoins spécifiques en termes de performance, de flexibilité et de design d'API.
+
+⏭️ [Pattern matching avancé](/II-specificites/17-pattern-matching-avance.md) - Patterns plus complexes, guards, etc.

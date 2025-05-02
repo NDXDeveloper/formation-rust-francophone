@@ -1,5 +1,7 @@
 # 21\. **Le système de types avancé** - Associated Types, GAT (Generic Associated Types), HRTB
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 ## Introduction
 
 Rust possède l'un des systèmes de types les plus sophistiqués parmi les langages de programmation modernes. Dans cette section, nous allons explorer les aspects avancés du système de types de Rust, notamment les types associés, les types associés génériques, et les trait bounds de rang supérieur. Ces fonctionnalités permettent de créer des abstractions puissantes tout en conservant la sécurité et les performances qui caractérisent Rust.
@@ -1009,3 +1011,5 @@ Ces fonctionnalités sont particulièrement utiles pour:
 Cependant, il est important de noter que ces fonctionnalités avancées augmentent la complexité du code et peuvent rendre la base de code plus difficile à comprendre pour les nouveaux développeurs. Il est donc recommandé de les introduire progressivement et seulement lorsqu'elles apportent un réel bénéfice en termes d'abstraction ou de sécurité.
 
 En maîtrisant ces fonctionnalités avancées du système de types de Rust, vous pouvez créer des abstractions puissantes tout en conservant la sécurité de la mémoire et les performances qui font la renommée de Rust.
+
+⏭️ [Les atomics et la mémoire ordonnée](/II-specificites/22-atomics-memoire-ordonnee.md) - `std::sync::atomic` et modèles de mémoire

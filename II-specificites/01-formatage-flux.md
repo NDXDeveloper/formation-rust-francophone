@@ -1,5 +1,7 @@
 ## 1\. Le formatage des flux
 
+Retour à la [Table des matières](/SOMMAIRE.md)
+
 Le formatage des flux en Rust est un aspect fondamental qui permet de contrôler précisément l'affichage des données. Contrairement à d'autres langages, Rust offre une approche puissante et flexible via ses macros de formatage.
 
 ### Les macros `print!` et `println!`
@@ -122,3 +124,5 @@ println!("{:#?}", nombres); // Affiche version "pretty print" avec formatage mul
 ```
 
 Le système de formatage de Rust est puissant et fait partie des fondements qui permettent d'écrire du code clair et expressif.
+
+⏭️ [Les traits](/II-specificites/02-traits.md)
